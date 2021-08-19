@@ -31,9 +31,7 @@ cite = Div(text="""<p1><h3>Citation:</h3><a href="https://www.kaggle.com/allen-i
 <br><br>
 <p1>Raff, Edward and Nicholas, Charles and McLean, Mark. The Thirty-Fourth AAAI Conference on Artificial Intelligence. A New Burrows Wheeler Transform Markov Distance. 2020.</p1>""")
 
-description_search = Div(text="""<h3>Filter by Text:</h3><p1>Search keyword to filter out the plot. It will search abstracts, 
-titles, journals, and authors. Please keep in mind that only 150 words of abstracts to reduce the size. Press enter when ready. 
-Clear and press enter to reset the plot.</p1>""")
+description_search = Div(text="""<h3>Filter by Text:</h3><p1>Search keyword to filter out the plot. It will search titles and passages both.</p1>""")
 
 description_slider = Div(text="""<h3>Filter by the Clusters:</h3><p1>The slider below can be used to filter the target cluster. 
 Simply slide the slider to the desired cluster number to display the plots that belong to that cluster. 
