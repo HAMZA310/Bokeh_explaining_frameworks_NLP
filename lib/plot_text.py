@@ -22,7 +22,7 @@ description2 = Div(text="""<h3>Approach:</h3>
 </ul>
 """)
 
-description_search = Div(text="""<h3>Filter by Text:</h3><p1>Search keyword to filter out the plot. It will search titles and passages both.</p1>""")
+description_search = Div(text="""<h3>Filter by Text:</h3><p1>Search keyword to filter out the plot. It will search titles and passages both. You can use 'slider' and 'search' together to search for a keyword in a particular cluster.</p1>""")
 
 description_slider = Div(text="""<h3>Filter by the Clusters:</h3><p1>The slider below can be used to filter the target cluster. 
 Simply slide the slider to the desired cluster number to display the plots that belong to that cluster. 
