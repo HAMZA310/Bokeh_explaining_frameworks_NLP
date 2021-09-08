@@ -12,13 +12,13 @@ description = Div(text="""<p1>Dots of same color represent the same cluster </p1
 # steps description
 description2 = Div(text="""<h3>Approach:</h3>
 <ul>
-  <li>Parse the text from the body of each document using Natural Language Processing (NLP). </li>
-  <li>Turn each document instance di into a feature vector Xi by embedding a paragraph using sentence-transformer.</li>
-  <li>Apply Dimensionality Reduction to each feature vector Xi using t-Distributed Stochastic Neighbor Embedding (t-SNE) to cluster similar research articles in the two dimensional plane X embedding Y1.</li>
-  <li>Use Principal Component Analysis (PCA) to project down the dimensions of X to a number of dimensions that will keep .95 variance while removing noise and outliers in embedding Y2.</li>
-  <li>Apply k-means clustering on Y2, where k is 7, to label each cluster on Y1.</li>
-  <li>Apply Topic Modeling on X using Latent Dirichlet Allocation (LDA) to discover keywords from each cluster.</li>
-  <li>Investigate the clusters visually on the plot, zooming down to specific articles as needed, and via classification using Stochastic Gradient Descent (SGD).</li>  
+  <li>Investigate the clusters visually on the plot, zooming down to specific passages as needed.</li>  
+  <li> Use the slider to go to a particular cluster.</li>
+  <li>Use the search bar to search for a specific keyword. If your slider is set to cluster c, it'll search passages only in that cluster.</li>
+  <li>Investigate the clusters visually on the plot, zooming down to specific articles as needed.</li>
+  <li>By default, the slider is set to k i.e. max value. In that case it'll display all clusters. Note that the index on the slider of the first cluster is 0 (not 1).</li>
+  <li> Unlike excel sheets, this plot provides insights on a different level where similairties of all passages in all frameworks are visualized at once.
+    
 </ul>
 """)
 
