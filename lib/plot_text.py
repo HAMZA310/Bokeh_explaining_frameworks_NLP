@@ -7,7 +7,7 @@ header = Div(text="""<h1>AUS Frameworks Clustering</h1>""")
 toolbox_header = Div(text="""<h1>Toolbox:</h1>""")
 
 # project description
-description = Div(text="""<p1>Dots of same color represent the same cluster. There are seven clusers (0-6). </p1>""")
+description = Div(text="""<p1>Dots of same color represent the same cluster </p1>""")
 
 # steps description
 description2 = Div(text="""<h3>Approach:</h3>
