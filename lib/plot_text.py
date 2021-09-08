@@ -26,7 +26,7 @@ description_search = Div(text="""<h3>Filter by Text:</h3><p1>Search keyword to f
 
 description_slider = Div(text="""<h3>Filter by the Clusters:</h3><p1>The slider below can be used to filter the target cluster. 
 Simply slide the slider to the desired cluster number to display the plots that belong to that cluster. 
-Slide back to 7 to show all.</p1>""")
+Slide back to k (i.e. max) to show all.</p1>""")
 
 description_keyword = Div(text="""<h3>Keywords:</h3>""")
 
