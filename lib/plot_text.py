@@ -24,7 +24,7 @@ description2 = Div(text="""<h3>Approach:</h3>
 
 description_search = Div(text="""<h3>Filter by Text:</h3><p1>Search keyword to filter out the plot. It will search titles and passages both. You can use 'slider' and 'search' together to search for a keyword in a particular cluster.</p1>""")
 
-description_slider = Div(text="""<h3>Filter by the Clusters:</h3><p1>The slider below can be used to filter the target cluster. 
+description_slider = Div(text="""<h3>Filter by the Clusters/Frameworks:</h3><p1>The slider below can be used to filter the target cluster if color_by_title is set to False otherwise it filters by framework which is valid upto the number of frameworks. 
 Simply slide the slider to the desired cluster number to display the plots that belong to that cluster. 
 Slide back to k (i.e. max) to show all.</p1>""")
 
