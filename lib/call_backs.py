@@ -30,7 +30,6 @@ def input_callback(plot, source, out_text, topics):
                 passage = data['passage'],
                 titles = data['title']
                 if (cluster == '7') {
-                    out_text.text = 'Keywords: Slide to specific cluster to see the keywords.';
                     for (i = 0; i < x.length; i++) {
 						if(passage[i].includes(key) || 
 						titles[i].includes(key)) {
@@ -43,7 +42,6 @@ def input_callback(plot, source, out_text, topics):
                     }
                 }
                 else {
-                    out_text.text = 'Keywords: ' + topics[Number(cluster)];
                     for (i = 0; i < x.length; i++) {
                         if(labels[i] == cluster) {
 							if(passage[i].includes(key) || 
